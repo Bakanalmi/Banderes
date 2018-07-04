@@ -1,0 +1,60 @@
+html, body{
+	font-size: 10px;
+	margin: 0;
+}
+
+#Bandera {
+	width: 580px;
+	height: 387px;
+	margin: 0;
+}
+
+.blanc{
+	flex-grow: 3;
+	background-color: rgb(255,255,255);
+	color: rgb(255,255,255);
+}
+
+.dos {
+	display: flex;
+	flex-direction: row;
+	height: 50%;
+}
+
+.vermell {
+	background-color: rgb(255,0,0);
+	height: 50%;
+}
+
+.shield_container{
+	background-color: #0000FF;
+	display: flex;
+	flex-grow: 1;
+}
+
+.container_star,
+.container_star::before,
+.container_star::after{
+	width: 0;
+    border-color: transparent transparent white transparent;
+    border-width: 0 4rem 2.5rem 4rem;
+    border-style: solid;
+    position: absolute;
+    transform: rotate(180deg);
+    margin-top: 2.75rem;
+    margin-left: 0.25rem;
+}
+
+.container_star::before{
+    content: '';
+    margin-top: -0.15rem;
+    margin-left: -4.3rem;
+    transform: rotate(70deg);
+}
+
+.container_star::after{
+    content: '';
+    margin-top: -0.29rem;
+    margin-left: -3.87rem;
+    transform: rotate(-70deg);
+}

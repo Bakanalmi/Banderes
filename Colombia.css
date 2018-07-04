@@ -8,8 +8,8 @@ html, body{
 #Bandera {
 	width: 255px;
 	height: 170px;
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 #Bandera > div.groc{
