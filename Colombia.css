@@ -15,16 +15,13 @@ html, body{
 #Bandera > div.groc{
 	flex-grow: 2;
 	background-color: rgb(252,209,22);
-	color: rgb(252,209,22);
 }
 
 #Bandera > div.blau{
 	flex-grow: 1;
 	background-color: rgb(0,56,147);
-	color: rgb(0,56,147);
 }
 
 #Bandera > div.vermell{
 	flex-grow: 1;
 	background-color: rgb(206,17,38);
-	color: rgb(206,17,38);
